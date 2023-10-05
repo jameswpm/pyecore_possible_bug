@@ -1,4 +1,4 @@
-from os import sep as DIR_SEP, walk as oswalk, path as osp
+from os import path as osp
 from pathlib import Path
 
 #PyEcore
