@@ -28,7 +28,6 @@ resource_set.metamodel_registry[content.nsURI] = content
 m_resource = resource_set.get_resource(URI(xmi_path))
 
 
-
 #iterate the model and print the class name
 for element in m_resource.contents:    
     class_name = element.eClass.name
